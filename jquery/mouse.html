@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Latihan Mouseover MOuseleave</title>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+            $("div").mouseover(function(){
+            $(this).css({background:"red"});
+            });
+            $("div").mouseleave(function(){
+            $(this).css({background:"yellow"});
+            });
+            });
+        </script>
+        <style type="text/css">
+            div{
+                background: yellow;
+                width: 60px;
+                height: 60px;
+                float: left;
+                margin: 10px;
+                cursor: pointer;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <p>Klik 2 kali pada setiap kotak untuk mengubah warna</p>
+        <div></div>
+        <div></div>
+        
+    </body>
+</html>

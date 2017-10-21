@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Latihan 4
+        </title>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+            $("#judul").addClass("merahkuning");
+            $(".sub1").addClass("kuninghitam");
+            });
+         </script>
+         <style type="text/css">
+            .merahkuning{
+                color: red;
+                font-weight: bold;
+                background-color: yellow;
+                padding: 3px;
+            }
+            
+            .kuninghitam{
+                color: yellow;
+                background-color: black;
+            }
+         </style>
+    </head>
+
+    <body>
+        <h1>Judul buku kuliah pemrograman web</h1>
+        <ol id="judul">
+            <li class="sub1">Pemrograman PHP</li>
+            <li>Database mysql</li>
+            <li class="sub1">Mempercantik web dengan jquery</li>
+
+        </ol>
+        
+    </body>
+</html>

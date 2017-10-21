@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title></title>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+            $(".flip").click(function(){
+            $(".pesan").slideToggle("slow");
+            });
+            });
+            
+        </script>
+        <style type="text/css">
+            div.pesan{
+                height: 120px;
+                display: none;
+
+            }
+            div.pesan, p.flip{
+                margin: 0px;
+                padding: 0px;
+                text-align: center;
+                background: lightyellow;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="pesan">sukses bukanlah kunci keberhasilan <br/>
+            kebahagiaan kunci kesuksesan <p>
+                jika senantiasa melakukan sesuatu dengan penuh cinta, maka anda akan sukses
+            </p>
+        </div>
+        <p class="flip">Tampilkan/sembunyikan</p>
+    </body>
+</html>
